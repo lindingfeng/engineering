@@ -44,7 +44,18 @@
 └─static  通用静态文件目录
 ```
 
-## Build Setup
+## 使用模板
+
+```
+npm install -g @vue/cli-init
+vue init lindingfeng/engineering#mpvue projectName
+
+or
+
+git clone https://github.com/lindingfeng/mpvue-engineering.git
+```
+
+## 开发
 
 ``` bash
 # 安装依赖
