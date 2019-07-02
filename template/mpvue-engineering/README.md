@@ -48,11 +48,11 @@
 
 ```
 npm install -g @vue/cli-init
-vue init lindingfeng/engineering#vue projectName
+vue init lindingfeng/engineering#mpvue projectName
 
 or
 
-git clone https://github.com/lindingfeng/vue-engineering.git
+git clone https://github.com/lindingfeng/mpvue-engineering.git
 ```
 
 ## 开发
