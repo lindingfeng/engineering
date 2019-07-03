@@ -119,6 +119,7 @@ let baseWebpackConfig = {
       from: '**/*.json',
       to: ''
     }], {
+      // 将根目录的app.json文件打包至生产目录
       context: `src/projects/${projectName}/`
     }),
     /*---------------------------------------*/

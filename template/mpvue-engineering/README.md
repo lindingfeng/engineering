@@ -82,3 +82,25 @@ npm run build:my
 # 生成 bundle 分析报告
 npm run build demo --report
 ```
+
+## 小程序UI框架
+
+### [Vant-Weapp](https://youzan.github.io/vant-weapp/#/intro) 
+```JavaScript
+--- main.json ---
+// 引入Vant-Weapp组件
+{
+  "usingComponents": {
+    "van-button": "/static/vant-weapp/dist/button/index"
+  }
+}
+
+--- index.vue ---  
+<template>
+  <div class="index-page">
+    <!-- 使用Vant-Weapp组件 -->
+    <van-button type="primary">主要按钮</van-button>
+  </div>
+</template>
+```
+### Tip: 如果不希望使用UI框架，可以将static目录下的vant-weapp文件夹删除即可!
