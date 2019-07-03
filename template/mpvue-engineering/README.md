@@ -62,22 +62,22 @@ git clone https://github.com/lindingfeng/mpvue-engineering.git
 yarn install
 
 # 开发时构建
-npm dev demo
+npm run dev demo
 
 # 打包构建
-npm build demo
+npm run build demo
 
 # 指定平台的开发时构建(微信、百度、头条、支付宝)
-npm dev:wx
-npm dev:swan
-npm dev:tt
-npm dev:my
+npm run dev:wx
+npm run dev:swan
+npm run dev:tt
+npm run dev:my
 
 # 指定平台的打包构建
-npm build:wx
-npm build:swan
-npm build:tt
-npm build:my
+npm run build:wx
+npm run build:swan
+npm run build:tt
+npm run build:my
 
 # 生成 bundle 分析报告
 npm run build demo --report
