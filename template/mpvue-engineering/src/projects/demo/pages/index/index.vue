@@ -3,6 +3,7 @@
     <div class="content">
       <img src="/static/images/user.png" alt="">
       <div class="text">--- 基于mpVue小程序工程化实践 ---</div>
+      <!-- <van-button type="primary">主要按钮</van-button> -->
     </div>
   </div>
 </template>
